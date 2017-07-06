@@ -1,7 +1,7 @@
 # Power-BI-Integer-Error-Demonstration
 This is the source code and .pbiviz that demonstrates an error with Power BI's handling of the `integer type` in the `requireTypes` property of `capabilities.json`. 
 
-The current `requireTypes` of the only field is:
+The [current](https://github.com/ABKimmel/Power-BI-Integer-Error-Demonstration/blob/master/capabilities.json#L9) `requireTypes` of the only field is:
 ```
  "requiredTypes": [
 
