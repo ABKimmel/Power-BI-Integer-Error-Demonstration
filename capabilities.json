@@ -1,0 +1,31 @@
+{
+    "dataRoles": [
+    {
+        "displayName": "Only Integers, Please",
+        "name": "category",
+        "kind": "Grouping",
+        "requiredTypes": [
+        {
+            "integer": true
+        } ],
+        "description": "This field should only accept integer values, but it doesn't."
+    } ],
+    "dataViewMappings": [
+    {
+        "categorical":
+        {
+            "categories":
+            {
+                "for":
+                {
+                    "in": "category"
+                },
+                "dataReductionAlgorithm":
+                {
+                    "top":
+                    {}
+                }
+            }
+        }
+    } ]
+}
